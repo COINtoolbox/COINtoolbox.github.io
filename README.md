@@ -21,19 +21,19 @@ promote the development of a new family of tools for data exploration in cosmolo
 
 * [Paper](http://adsabs.harvard.edu/abs/2015A%26C....10...61E)
 
-* [Code]()
+* [Code](http://ascl.net/1408.018)
 
-* [Tutorial]()
+* [Tutorial](http://cosmophotoz.readthedocs.org/en/latest/)
 
-* [Web-interface]()
+* [Web-interface](https://cosmostatisticsinitiative.shinyapps.io/CosmoPhotoz)
 
 
 
 ### Aproximate Bayesian Computation
 
-* [Code]()
+* [Code](https://pypi.python.org/pypi/CosmoABC)
 
-* [Tutorial]()
+* [Tutorial](http://cosmoabc.readthedocs.org/en/latest/)
 
 ### Analysis of Multi-dimensional datasets
 
