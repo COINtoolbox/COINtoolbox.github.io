@@ -1,4 +1,4 @@
 # COIN      
-![COIN logo](/images/logo.png)
+![COIN logo](/images/long_logo.tif)
 
 Welcome to the COINtoolbox 
