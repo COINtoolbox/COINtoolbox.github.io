@@ -39,4 +39,6 @@ promote the development of a new family of tools for data exploration in cosmolo
 
 * [Web-interface](http://rafaelsdesouza.github.io/AMADA/)
 
+---
+##### Contact: <rafael.2706@gmail.com>
 
