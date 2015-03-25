@@ -1,7 +1,6 @@
+<img src="www/COIN.jpg", class="inline"/>
+
 # The Cosmostatistics Initiative: COIN
-
-
-<img src="www/COIN.jpeg", align="right", heigth=5,width=5, class="inline"/>
 
 The COsmostatistics INitiative ([COIN](https://asaip.psu.edu/organizations/iaa/iaa-working-group-of-cosmostatistics/)), a working group built within the International Astrostatistics Association
 ([IAA](https://asaip.psu.edu/organizations/iaa/international-astrostatistics-association-overview
