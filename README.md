@@ -1,4 +1,4 @@
-### The Cosmostatistics Initiative: COIN
+## The Cosmostatistics Initiative: COIN
 
 
 The COsmostatistics INitiative ([COIN](https://asaip.psu.edu/organizations/iaa/iaa-working-group-of-cosmostatistics/)), a working group built within the International Astrostatistics Association
@@ -6,3 +6,7 @@ The COsmostatistics INitiative ([COIN](https://asaip.psu.edu/organizations/iaa/i
 )), aims to create a friendly environment where hands-on collaboration between astronomers,
 cosmologists, statisticians and machine learning experts can flourish. COIN is designed to
 promote the development of a new family of tools for data exploration in cosmology. 
+
+
+#### Projects 
+[GLM-1](http://adsabs.harvard.edu/abs/2014arXiv1409.7696D)
