@@ -12,6 +12,7 @@ promote the development of a new family of tools for data exploration in cosmolo
 ### Generalized Linear Models in Astronomy
 
 #### Binomial Regression
+[binomial](https://github.com/COINtoolbox/COINtoolbox.github.io/blob/master/binomial.Rmd)
 
 * [Paper](http://adsabs.harvard.edu/abs/2014arXiv1409.7696D)
 
