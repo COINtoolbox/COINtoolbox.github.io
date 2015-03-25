@@ -1,6 +1,6 @@
 # The Cosmostatistics Initiative: COIN
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![LOGO](https://github.com/COINtoolbox/COINtoolbox.github.io/blob/master/www/COIN.jpeg)
 
 The COsmostatistics INitiative ([COIN](https://asaip.psu.edu/organizations/iaa/iaa-working-group-of-cosmostatistics/)), a working group built within the International Astrostatistics Association
 ([IAA](https://asaip.psu.edu/organizations/iaa/international-astrostatistics-association-overview
