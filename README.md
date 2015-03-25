@@ -11,9 +11,22 @@ promote the development of a new family of tools for data exploration in cosmolo
 
 ### Generalized Linear Models in Astronomy
 
-[Binomial Regression](http://adsabs.harvard.edu/abs/2014arXiv1409.7696D)
+#### Binomial Regression
 
-[Gamma Regression](http://adsabs.harvard.edu/abs/2015A%26C....10...61E)
+* [Paper](http://adsabs.harvard.edu/abs/2014arXiv1409.7696D)
+
+* [Tutorial]()
+
+#### Gamma Regression
+
+* [Paper](http://adsabs.harvard.edu/abs/2015A%26C....10...61E)
+
+* [Code]()
+
+* [Tutorial]()
+
+* [Web-interface]()
+
 
 
 ### Aproximate Bayesian Computation
