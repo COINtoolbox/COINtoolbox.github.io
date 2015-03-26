@@ -10,23 +10,21 @@ cosmologists, statisticians and machine learning experts can flourish. COIN is d
 promote the development of a new family of tools for data exploration in cosmology. 
 
 
-## Projects 
-
-### Generalized Linear Models in Astronomy
+## Generalized Linear Models in Astronomy
 
 Statistical methods play a central role  to fully exploit astronomical catalogues and an  efficient  data analysis requires astronomers  to go beyond the traditional Gaussian-based models. This projects illustrates the power of generalized linear models (GLMs) for astronomical community,  from a Bayesian perspective.  Applications range from modelling star formation activity (logistic regression), globular cluster population (negative binomial regression), photometric redshifts (gamma regression), exoplanets multiplicity (Poisson regression), and so forth.
 
-#### Binomial Regression
+### Binomial Regression
 
 * [Paper](http://adsabs.harvard.edu/abs/2014arXiv1409.7696D)
 
 * [Tutorial]()
 
-#### Gamma Regression
+### Gamma Regression
 
 * [Paper](http://adsabs.harvard.edu/abs/2015A%26C....10...61E)
 
-* [Code](http://ascl.net/1408.018)
+* [Package](http://ascl.net/1408.018)
 
 * [Tutorial](http://cosmophotoz.readthedocs.org/en/latest/)
 
@@ -34,18 +32,20 @@ Statistical methods play a central role  to fully exploit astronomical catalogue
 
 
 
-### Aproximate Bayesian Computation
+## Aproximate Bayesian Computation
 
-* [Code](https://pypi.python.org/pypi/CosmoABC)
+* [Package](https://pypi.python.org/pypi/CosmoABC)
 
 * [Tutorial](http://cosmoabc.readthedocs.org/en/latest/)
 
-### Analysis of Muldimensional Astronomical DAtasets (AMADA)
+## Analysis of Muldimensional Astronomical DAtasets (AMADA)
 
 AMADA allows an iterative exploration and information retrieval of high-dimensional data sets. This is done by performing a hierarchical clustering analysis for different choices of correlation matrices and by doing a principal components analysis in the original data. Additionally, AMADA provides a set of modern visualization data-mining diagnostics. The user can switch between them using the different tabs.
 
-* [Web-interface](http://rafaelsdesouza.github.io/AMADA/)
+* [Package](http://rafaelsdesouza.github.io/AMADA/)
+
+* [Web App](https://cosmostatisticsinitiative.shinyapps.io/AMADA/)
 
 ---
-##### Contact: <rafael.2706@gmail.com>
+#### Contact: <rafael.2706@gmail.com>
 
