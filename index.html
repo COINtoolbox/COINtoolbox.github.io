@@ -1,45 +1,82 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>COINtoolbox by COINtoolbox</title>
+<!DOCTYPE html>
+<html lang='en'>
+	<head>
+		<title>My GitHub project</title>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="javascripts/scale.fix.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1 class="header">COINtoolbox</h1>
-        <p class="header"></p>
+		<!--[if lt IE 9]><script type='text/javascript' src='assets/javascript/html5.js'></script><![endif]-->
+		<script type='text/javascript' src='assets/javascript/prettify.js'></script>
+    <script type='text/javascript' src='assets/js/jquery-2.1.0.min.js'></script>
+    <script type='text/javascript' src='assets/js/bootstrap.js'></script>
 
-        <ul>
-          <li class="download"><a class="buttons" href="https://github.com/COINtoolbox/COINtoolbox/zipball/master">Download ZIP</a></li>
-          <li class="download"><a class="buttons" href="https://github.com/COINtoolbox/COINtoolbox/tarball/master">Download TAR</a></li>
-          <li><a class="buttons github" href="https://github.com/COINtoolbox/COINtoolbox">View On GitHub</a></li>
+		<link rel='stylesheet' type='text/css' href='assets/css/style.css' />
+		<link rel='stylesheet' type='text/css' href='assets/css/bootstrap.css' />
+		<link rel='stylesheet' type='text/css' href='assets/css/prettify.css' />
+	</head>
+<body onload='prettyPrint()'>
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Brand</a>
+      </div>
+  
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+              <li class="divider"></li>
+              <li><a href="#">One more separated link</a></li>
+            </ul>
+          </li>
         </ul>
-
-        <p class="header">This project is maintained by <a class="header name" href="https://github.com/COINtoolbox">COINtoolbox</a></p>
-
-
-      </header>
-      <section>
-        <h1>
-<a id="coin" class="anchor" href="#coin" aria-hidden="true"><span class="octicon octicon-link"></span></a>COIN</h1>
-
-<p>Welcome to the COINtoolbox </p>
-      </section>
-      <footer>
-        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
-      </footer>
-    </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-		
-  </body>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+  <section class="panel jumbotron">
+    <h1>Your Project Title</h1>
+    
+    <a class="btn btn-primary btn-lg" role="button">Learn more</a>
+    <a class='btn btn-primary btn-lg' href='https://github.com/USER/REPOSITORY/zipball/master'>Download</a>
+    
+    <h2>Check out my awesome project:</h2>
+  	
+        <pre class='prettyprint'>
+          &lt;script&gt;
+          function display_awesomeness();
+          {
+            alert("Awesomeness!");
+          }
+          &lt;/script&gt;
+        &lt;form&gt;
+          &lt;input type="button" value="Click me!" onclick="display_awesomeness()" /&gt;
+        &lt;/form&gt;
+  			</pre>
+  </section>      	
+  
+  <footer>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Footer</a>
+        </div>
+      </div><!-- /.container-fluid -->
+    </nav>
+  </footer>
+</body>
 </html>
