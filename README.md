@@ -1,5 +1,5 @@
 <img src="www/COIN.jpg", class="inline"/>
-
+[![DOI](https://zenodo.org/badge/7175/COINtoolbox/COINtoolbox.github.io.svg)](http://dx.doi.org/10.5281/zenodo.16376)
 # Methodology and software for cosmology
 ---
 
