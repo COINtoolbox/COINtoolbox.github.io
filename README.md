@@ -20,9 +20,10 @@ Statistical methods play a central role  to fully exploit astronomical catalogue
 
 ### Binomial Regression
 
-* [Paper](http://adsabs.harvard.edu/abs/2014arXiv1409.7696D)
+ * Overlooked potential of generalized linear models in Astronomy-I: Binomial Regression <a href="http://adsabs.harvard.edu/abs/2014arXiv1409.7696D" class="btn btn-primary">Link to ADS</a> 
 
-* [Tutorial]()
+ [Tutorial]()
+
 
 ### Gamma Regression
 
