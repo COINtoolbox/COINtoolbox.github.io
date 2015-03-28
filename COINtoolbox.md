@@ -59,13 +59,12 @@ AMADA allows an iterative exploration and information retrieval of high-dimensio
 <a href="https://github.com/algolkm" class="btn btn-default">Alberto Krone-Martins</a>
 <a href="https://github.com/bbuelens" class="btn btn-default">Bart Buelens</a>
 <a href="https://github.com/drArli" class="btn btn-default">Arlindo Trindade</a>
-<a href="https://github.com/DrMud" class="btn btn-default">Madhura Killedar</a>
 <a href="https://github.com/efeigelson" class="btn btn-default">Eric Feigelson</a>
 <a href="https://github.com/emilleishida" class="btn btn-default">Emille Ishida</a>
 <a href="https://github.com/jonnybazookatone" class="btn btn-default">Jonny Elliott</a>
+<a href="https://github.com/DrMud" class="btn btn-default">Madhura Killedar</a>
+<a href="https://github.com/pennalima" class="btn btn-default">Mariana Penna-Lima</a>
 <a href="https://github.com/migueldvb" class="btn btn-default">Miguel de Val-Borro</a>
-<a href="https://github.com/pennalima" class="btn btn-default">Mariana Penna-Lima</a>
-<a href="https://github.com/pennalima" class="btn btn-default">Mariana Penna-Lima</a>
 <a href="https://github.com/RafaelSdeSouza" class="btn btn-default">Rafael S. de Souza</a>
 <a href="https://github.com/rsmiljanic" class="btn btn-default">Rodolfo Smiljanic</a>
 <a href="https://github.com/vitenti" class="btn btn-default">Sandro Vitenti</a>
