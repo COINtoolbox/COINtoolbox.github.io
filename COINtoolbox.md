@@ -1,8 +1,5 @@
 <xmp theme="cerulean" style="display:none;">
   <meta name="description" content="">
-   </head>
-   <title>Amada by RafaelSdeSouza</title>
-    </head>
    <h1 class="title">COINtoolbox</h1>
    [![DOI](https://zenodo.org/badge/7175/COINtoolbox/COINtoolbox.github.io.svg)](http://dx.doi.org/10.5281/zenodo.16376)
 <img src="www/COIN.jpg", class="inline"/>
