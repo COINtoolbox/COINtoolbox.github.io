@@ -26,16 +26,11 @@ Statistical methods play a central role  to fully exploit astronomical catalogue
 
 
 ### Gamma Regression
-
-* [Paper](http://adsabs.harvard.edu/abs/2015A%26C....10...61E)
-
-* [Package](http://ascl.net/1408.018)
-
-* [Tutorial](http://cosmophotoz.readthedocs.org/en/latest/)
-
-* [Web-interface](https://cosmostatisticsinitiative.shinyapps.io/CosmoPhotoz)
-
-
+ <a href="http://adsabs.harvard.edu/abs/2015A%26C....10...61E" class="btn btn-default">Link to ADS</a> 
+ <a href="http://cosmophotoz.readthedocs.org/en/latest/" class="btn btn-default">Tutorial</a> 
+ <a href="http://ascl.net/1408.018" class="btn btn-default">Package</a> 
+ <a href="https://cosmostatisticsinitiative.shinyapps.io/CosmoPhotoz" class="btn btn-default">Web App</a> 
+ 
 
 ## Aproximate Bayesian Computation
 
@@ -46,17 +41,18 @@ ABC relies on the forward simulation of mock data rather than the
 specification of a likelihood function.  The CosmoABC code was originally designed for cosmological parameter inference from galaxy clusters number counts based on Sunyaev-Zel’dovich measurements. 
 Nevertheless, the user can easily take advantage of the ABC sampler along with his/her own simulator, as well as test personalized prior distributions, summary statistics and distance functions.
 
-* [Package](https://pypi.python.org/pypi/CosmoABC)
-
-* [Tutorial](http://cosmoabc.readthedocs.org/en/latest/)
+<a href="https://pypi.python.org/pypi/CosmoABC" class="btn btn-default">Tutorial</a> 
+ <a href="https://pypi.python.org/pypi/CosmoABC" class="btn btn-default">Package</a> 
 
 ## Analysis of Muldimensional Astronomical DAtasets (AMADA)
 
 AMADA allows an iterative exploration and information retrieval of high-dimensional data sets. This is done by performing a hierarchical clustering analysis for different choices of correlation matrices and by doing a principal components analysis in the original data. Additionally, AMADA provides a set of modern visualization data-mining diagnostics. The user can switch between them using the different tabs.
 
-* [Package](http://rafaelsdesouza.github.io/AMADA/)
+ <a href="http://adsabs.harvard.edu/abs/2015arXiv150307736D" class="btn btn-default">Link to ADS</a>
+ <a href="http://rafaelsdesouza.github.io/AMADA/" class="btn btn-default">Package</a> 
+ <a href="https://cosmostatisticsinitiative.shinyapps.io/AMADA/" class="btn btn-default">Web App</a> 
+ 
 
-* [Web App](https://cosmostatisticsinitiative.shinyapps.io/AMADA/)
 
 ---
 #### Contact: <rafael.2706@gmail.com>
