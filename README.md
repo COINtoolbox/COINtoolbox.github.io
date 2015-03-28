@@ -1,4 +1,7 @@
-[![DOI](https://zenodo.org/badge/7175/COINtoolbox/COINtoolbox.github.io.svg)](http://dx.doi.org/10.5281/zenodo.16376)
+<xmp theme="cerulean" style="display:none;">
+  <meta name="description" content="">
+   <h1 class="title">COINtoolbox</h1>
+   [![DOI](https://zenodo.org/badge/7175/COINtoolbox/COINtoolbox.github.io.svg)](http://dx.doi.org/10.5281/zenodo.16376)
 <img src="www/COIN.jpg", class="inline"/>
 
 # Methodology and software for cosmology
@@ -49,4 +52,7 @@ AMADA allows an iterative exploration and information retrieval of high-dimensio
 
 ---
 #### Contact: <rafael.2706@gmail.com>
+</xmp>
+<a href="https://github.com/COINtoolbox/COINtoolbox.github.io"><img style="position: fixed; top: 0; right: 0; border: 0; z-index: 1000; margin: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
 
+<script src="http://strapdownjs.com/v/0.2/strapdown.js"></script>
