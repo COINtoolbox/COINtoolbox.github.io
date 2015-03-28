@@ -57,6 +57,6 @@ AMADA allows an iterative exploration and information retrieval of high-dimensio
 ---
 #### Contact: <rafael.2706@gmail.com>
 </xmp>
-<a href="https://github.com/COINtoolbox/COINtoolbox.github.io"><img style="position: fixed; top: 0; right: 0; border: 0; z-index: 1000; margin: 0;" src="https://github.com/COINtoolbox/COINtoolbox.github.io/blob/master/images/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+<a href="https://github.com/COINtoolbox/COINtoolbox.github.io"><img style="position: fixed; top: 0; right: 0; border: 0; z-index: 1000; margin: 0;" src="images/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
 
 <script src="http://strapdownjs.com/v/0.2/strapdown.js"></script>
