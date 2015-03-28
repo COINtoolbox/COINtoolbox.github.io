@@ -38,6 +38,13 @@ Statistical methods play a central role  to fully exploit astronomical catalogue
 
 ## Aproximate Bayesian Computation
 
+Approximate Bayesian Computation (ABC) enables the statistical analysis of
+stochastic models for complex physical systems in cases where the true
+likelihood function is unknown, unavailable, or computationally expensive.
+ABC relies on the forward simulation of mock data rather than the
+specification of a likelihood function.  The CosmoABC code was originally designed for cosmological parameter inference from galaxy clusters number counts based on Sunyaev-Zel’dovich measurements. 
+Nevertheless, the user can easily take advantage of the ABC sampler along with his/her own simulator, as well as test personalized prior distributions, summary statistics and distance functions.
+
 * [Package](https://pypi.python.org/pypi/CosmoABC)
 
 * [Tutorial](http://cosmoabc.readthedocs.org/en/latest/)
