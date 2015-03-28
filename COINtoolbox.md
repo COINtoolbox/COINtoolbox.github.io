@@ -20,8 +20,8 @@ Statistical methods play a central role  to fully exploit astronomical catalogue
 
 ### Binomial Regression
 
- <a href="http://adsabs.harvard.edu/abs/2014arXiv1409.7696D" class="btn btn-primary">Link to ADS</a> 
-<a href="#" class="btn btn-primary">Tutorial</a>
+ <a href="http://adsabs.harvard.edu/abs/2014arXiv1409.7696D" class="btn btn-default">Link to ADS</a> 
+<a href="#" class="btn btn-default">Tutorial</a>
 
 
 
