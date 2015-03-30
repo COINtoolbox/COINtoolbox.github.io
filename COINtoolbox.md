@@ -16,9 +16,10 @@ promote the development of a new family of tools for data exploration in cosmolo
 
 ## Generalized Linear Models in Astronomy
 
-Statistical methods play a central role  to fully exploit astronomical catalogues and an  efficient  data analysis requires astronomers  to go beyond the traditional Gaussian-based models. This projects illustrates the power of generalized linear models (GLMs) for astronomical community,  from a Bayesian perspective.  Applications range from modelling star formation activity (logistic regression), globular cluster population (negative binomial regression), photometric redshifts (gamma regression), exoplanets multiplicity (Poisson regression), and so forth.
+> Statistical methods play a central role  to fully exploit astronomical catalogues and an  efficient  data analysis requires astronomers  to go beyond the traditional Gaussian-based models. This projects illustrates the power of generalized linear models (GLMs) for astronomical community,  from a Bayesian perspective.  Applications range from modelling star formation activity (logistic regression), globular cluster population (negative binomial regression), photometric redshifts (gamma regression), exoplanets multiplicity (Poisson regression), and so forth.
 
 ### Binomial Regression
+>Suited to handle binary or proportional  data, also called absence and presence data. For example AGN activity, star-galaxy separation, fraction of bars in a galaxy, scape fraction, etc. 
 
  <a href="http://adsabs.harvard.edu/abs/2014arXiv1409.7696D" class="btn btn-primary">Link to ADS</a> 
 <a href="#" class="btn btn-primary">Tutorial</a>
@@ -34,7 +35,7 @@ Statistical methods play a central role  to fully exploit astronomical catalogue
 
 ## Aproximate Bayesian Computation
 
-Approximate Bayesian Computation (ABC) enables the statistical analysis of
+>Approximate Bayesian Computation (ABC) enables the statistical analysis of
 stochastic models for complex physical systems in cases where the true
 likelihood function is unknown, unavailable, or computationally expensive.
 ABC relies on the forward simulation of mock data rather than the
@@ -46,7 +47,7 @@ Nevertheless, the user can easily take advantage of the ABC sampler along with h
 
 ## Analysis of Muldimensional Astronomical DAtasets (AMADA)
 
-AMADA allows an iterative exploration and information retrieval of high-dimensional data sets. This is done by performing a hierarchical clustering analysis for different choices of correlation matrices and by doing a principal components analysis in the original data. Additionally, AMADA provides a set of modern visualization data-mining diagnostics. The user can switch between them using the different tabs.
+>AMADA allows an iterative exploration and information retrieval of high-dimensional data sets. This is done by performing a hierarchical clustering analysis for different choices of correlation matrices and by doing a principal components analysis in the original data. Additionally, AMADA provides a set of modern visualization data-mining diagnostics. The user can switch between them using the different tabs.
 
  <a href="http://adsabs.harvard.edu/abs/2015arXiv150307736D" class="btn btn-primary">Link to ADS</a>
  <a href="http://rafaelsdesouza.github.io/AMADA/" class="btn btn-primary">Package</a> 
