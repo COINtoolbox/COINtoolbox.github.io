@@ -1,20 +1,10 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-<title>Methodology and software for cosmology</title>
-
-</head>
-<body>
 <xmp theme="spacelab" style="display:none;">
   <meta name="description" content="">
-
-   # COINtoolbox
+   <h1 class="title">COINtoolbox</h1>
    [![DOI](https://zenodo.org/badge/7175/COINtoolbox/COINtoolbox.github.io.svg)](http://dx.doi.org/10.5281/zenodo.16376)
 <img src="www/COIN.jpg", class="inline"/>
 
-## Methodology and software for cosmology
+# Methodology and software for cosmology
 
 <blockquote>
 The COsmostatistics INitiative ([COIN](https://asaip.psu.edu/organizations/iaa/iaa-working-group-of-cosmostatistics/)), a working group built within the International Astrostatistics Association
@@ -75,9 +65,7 @@ Nevertheless, the user can easily take advantage of the ABC sampler along with h
 <a href="https://github.com/efeigelson" class="btn btn-default">Eric Feigelson</a>
 <a href="https://github.com/emilleishida" class="btn btn-default">Emille Ishida</a>
 <a href="https://github.com/jonnybazookatone" class="btn btn-default">Jonny Elliott</a>
-<a href="https://github.com/JHilbe" class="btn btn-default">Joseph  Hilbe</a>
 <a href="https://github.com/DrMud" class="btn btn-default">Madhura Killedar</a>
-<a href="https://github.com/mdastro" class="btn btn-default">Maria Luiza Dantas</a>
 <a href="https://github.com/pennalima" class="btn btn-default">Mariana Penna-Lima</a>
 <a href="https://github.com/migueldvb" class="btn btn-default">Miguel de Val-Borro</a>
 <a href="https://github.com/RafaelSdeSouza" class="btn btn-default">Rafael S. de Souza</a>
@@ -86,13 +74,6 @@ Nevertheless, the user can easily take advantage of the ABC sampler along with h
 
 #### Contact: <rafael.2706@gmail.com>
 </xmp>
-
-
-<p><a href="https://github.com/COINtoolbox/COINtoolbox.github.io"><img style="position: fixed; top: 0; right: 0; border: 0; width: 149px; height: 149px; z-index: 1000; margin: 0;" src="images/right-cerulean.png" alt="Fork me on GitHub"></a></p>
+<a href="https://github.com/COINtoolbox/COINtoolbox.github.io"><img style="position: fixed; top: 0; right: 0; border: 0; width: 149px; height: 149px; z-index: 1000; margin: 0;" src="images/right-cerulean.png" alt="Fork me on GitHub"></a>
 
 <script src="http://strapdownjs.com/v/0.2/strapdown.js"></script>
-
-
-
-</body>
-</html>
