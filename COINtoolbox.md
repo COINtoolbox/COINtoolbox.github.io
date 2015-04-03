@@ -27,6 +27,8 @@ promote the development of a new family of tools for data exploration in cosmolo
 
 
 ### Gamma Regression
+>Suited to handle non-negative continuous variables. Such as photometric redshifts, star formation rate, galaxy mass. The method naturally accounts for heteroskedasticity (non-constant variability). 
+
  <a href="http://adsabs.harvard.edu/abs/2015A%26C....10...61E" class="btn btn-primary">Link to ADS</a> 
  <a href="http://cosmophotoz.readthedocs.org/en/latest/" class="btn btn-primary">Tutorial</a> 
  <a href="http://ascl.net/1408.018" class="btn btn-primary">Package</a> 
