@@ -66,6 +66,7 @@ Nevertheless, the user can easily take advantage of the ABC sampler along with h
 <a href="https://github.com/efeigelson" class="btn btn-default">Eric Feigelson</a>
 <a href="https://github.com/emilleishida" class="btn btn-default">Emille Ishida</a>
 <a href="https://github.com/jonnybazookatone" class="btn btn-default">Jonny Elliott</a>
+<a href="https://github.com/JHilbe" class="btn btn-default">Joseph  Hilbe</a>
 <a href="https://github.com/DrMud" class="btn btn-default">Madhura Killedar</a>
 <a href="https://github.com/mdastro" class="btn btn-default">Maria Luiza Dantas</a>
 <a href="https://github.com/pennalima" class="btn btn-default">Mariana Penna-Lima</a>
