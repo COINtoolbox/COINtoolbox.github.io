@@ -1,134 +1,284 @@
-<!doctype html>
-<html>
+<!DOCTYPE html><html>
+
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-<style>
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote {
-    margin: 0;
-    padding: 0;
-}
+<title>COINtoolbox</title>
+<style type="text/css">
 body {
-    font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif;
-    font-size: 13px;
-    line-height: 18px;
-    color: #737373;
-    background-color: white;
-    margin: 10px 13px 10px 13px;
-}
-table {
-	margin: 10px 0 15px 0;
-	border-collapse: collapse;
-}
-td,th {	
-	border: 1px solid #ddd;
-	padding: 3px 10px;
-}
-th {
-	padding: 5px 10px;	
-}
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  padding: 30px; }
+
+body > *:first-child {
+  margin-top: 0 !important; }
+body > *:last-child {
+  margin-bottom: 0 !important; }
 
 a {
-    color: #0069d6;
-}
-a:hover {
-    color: #0050a3;
-    text-decoration: none;
-}
-a img {
-    border: none;
-}
-p {
-    margin-bottom: 9px;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    color: #404040;
-    line-height: 36px;
-}
+  color: #4183C4; }
+a.absent {
+  color: #cc0000; }
+a.anchor {
+  display: block;
+  padding-left: 30px;
+  margin-left: -30px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  cursor: text;
+  position: relative; }
+
+h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA09pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoMTMuMCAyMDEyMDMwNS5tLjQxNSAyMDEyLzAzLzA1OjIxOjAwOjAwKSAgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OUM2NjlDQjI4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OUM2NjlDQjM4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5QzY2OUNCMDg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5QzY2OUNCMTg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsQhXeAAAABfSURBVHjaYvz//z8DJYCRUgMYQAbAMBQIAvEqkBQWXI6sHqwHiwG70TTBxGaiWwjCTGgOUgJiF1J8wMRAIUA34B4Q76HUBelAfJYSA0CuMIEaRP8wGIkGMA54bgQIMACAmkXJi0hKJQAAAABJRU5ErkJggg==) no-repeat 10px center;
+  text-decoration: none; }
+
+h1 tt, h1 code {
+  font-size: inherit; }
+
+h2 tt, h2 code {
+  font-size: inherit; }
+
+h3 tt, h3 code {
+  font-size: inherit; }
+
+h4 tt, h4 code {
+  font-size: inherit; }
+
+h5 tt, h5 code {
+  font-size: inherit; }
+
+h6 tt, h6 code {
+  font-size: inherit; }
+
 h1 {
-    margin-bottom: 18px;
-    font-size: 30px;
-}
+  font-size: 28px;
+  color: black; }
+
 h2 {
-    font-size: 24px;
-}
+  font-size: 24px;
+  border-bottom: 1px solid #cccccc;
+  color: black; }
+
 h3 {
-    font-size: 18px;
-}
+  font-size: 18px; }
+
 h4 {
-    font-size: 16px;
-}
+  font-size: 16px; }
+
 h5 {
-    font-size: 14px;
-}
+  font-size: 14px; }
+
 h6 {
-    font-size: 13px;
-}
+  color: #777777;
+  font-size: 14px; }
+
+p, blockquote, ul, ol, dl, li, table, pre {
+  margin: 15px 0; }
+
 hr {
-    margin: 0 0 19px;
-    border: 0;
-    border-bottom: 1px solid #ccc;
+  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x 0 0;
+  border: 0 none;
+  color: #cccccc;
+  height: 4px;
+  padding: 0;
 }
-blockquote {
-    padding: 13px 13px 21px 15px;
-    margin-bottom: 18px;
-    font-family:georgia,serif;
-    font-style: italic;
-}
-blockquote:before {
-    content:"\201C";
-    font-size:40px;
-    margin-left:-10px;
-    font-family:georgia,serif;
-    color:#eee;
-}
-blockquote p {
+
+body > h2:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+body > h1:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+  body > h1:first-child + h2 {
+    margin-top: 0;
+    padding-top: 0; }
+body > h3:first-child, body > h4:first-child, body > h5:first-child, body > h6:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0; }
+
+h1 p, h2 p, h3 p, h4 p, h5 p, h6 p {
+  margin-top: 0; }
+
+li p.first {
+  display: inline-block; }
+li {
+  margin: 0; }
+ul, ol {
+  padding-left: 30px; }
+
+ul :first-child, ol :first-child {
+  margin-top: 0; }
+
+dl {
+  padding: 0; }
+  dl dt {
     font-size: 14px;
-    font-weight: 300;
-    line-height: 18px;
-    margin-bottom: 0;
+    font-weight: bold;
     font-style: italic;
-}
-code, pre {
-    font-family: Monaco, Andale Mono, Courier New, monospace;
-}
-code {
-    background-color: #fee9cc;
-    color: rgba(0, 0, 0, 0.75);
-    padding: 1px 3px;
-    font-size: 12px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-}
-pre {
-    display: block;
-    padding: 14px;
-    margin: 0 0 18px;
-    line-height: 16px;
-    font-size: 11px;
-    border: 1px solid #d9d9d9;
-    white-space: pre-wrap;
-    word-wrap: break-word;
-}
-pre code {
-    background-color: #fff;
-    color:#737373;
-    font-size: 11px;
     padding: 0;
-}
+    margin: 15px 0 5px; }
+    dl dt:first-child {
+      padding: 0; }
+    dl dt > :first-child {
+      margin-top: 0; }
+    dl dt > :last-child {
+      margin-bottom: 0; }
+  dl dd {
+    margin: 0 0 15px;
+    padding: 0 15px; }
+    dl dd > :first-child {
+      margin-top: 0; }
+    dl dd > :last-child {
+      margin-bottom: 0; }
+
+blockquote {
+  border-left: 4px solid #dddddd;
+  padding: 0 15px;
+  color: #777777; }
+  blockquote > :first-child {
+    margin-top: 0; }
+  blockquote > :last-child {
+    margin-bottom: 0; }
+
+table {
+  padding: 0;border-collapse: collapse; }
+  table tr {
+    border-top: 1px solid #cccccc;
+    background-color: white;
+    margin: 0;
+    padding: 0; }
+    table tr:nth-child(2n) {
+      background-color: #f8f8f8; }
+    table tr th {
+      font-weight: bold;
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr td {
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr th :first-child, table tr td :first-child {
+      margin-top: 0; }
+    table tr th :last-child, table tr td :last-child {
+      margin-bottom: 0; }
+
+img {
+  max-width: 100%; }
+
+span.frame {
+  display: block;
+  overflow: hidden; }
+  span.frame > span {
+    border: 1px solid #dddddd;
+    display: block;
+    float: left;
+    overflow: hidden;
+    margin: 13px 0 0;
+    padding: 7px;
+    width: auto; }
+  span.frame span img {
+    display: block;
+    float: left; }
+  span.frame span span {
+    clear: both;
+    color: #333333;
+    display: block;
+    padding: 5px 0 0; }
+span.align-center {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-center > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: center; }
+  span.align-center span img {
+    margin: 0 auto;
+    text-align: center; }
+span.align-right {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px 0 0;
+    text-align: right; }
+  span.align-right span img {
+    margin: 0;
+    text-align: right; }
+span.float-left {
+  display: block;
+  margin-right: 13px;
+  overflow: hidden;
+  float: left; }
+  span.float-left span {
+    margin: 13px 0 0; }
+span.float-right {
+  display: block;
+  margin-left: 13px;
+  overflow: hidden;
+  float: right; }
+  span.float-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: right; }
+
+code, tt {
+  margin: 0 2px;
+  padding: 0 5px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px; }
+
+pre code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent; }
+
+.highlight pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+  pre code, pre tt {
+    background-color: transparent;
+    border: none; }
+
 sup {
     font-size: 0.83em;
     vertical-align: super;
@@ -140,30 +290,29 @@ sup {
 @media screen and (min-width: 914px) {
     body {
         width: 854px;
-        margin:10px auto;
+        margin:0 auto;
     }
 }
 @media print {
-	body,code,pre code,h1,h2,h3,h4,h5,h6 {
-		color: black;
-	}
 	table, pre {
 		page-break-inside: avoid;
 	}
+	pre {
+		word-wrap: break-word;
+	}
 }
 </style>
-<title>Methodology and software for cosmology</title>
-
 </head>
 <body>
-<xmp theme="spacelab" style="display:none;">
-  <meta name="description" content="">
+<p><xmp theme="spacelab" style="display:none;">
+  <meta name="description" content=""></p>
 
 <h1 class="title">COINtoolbox</h1> 
-   [![DOI](https://zenodo.org/badge/7175/COINtoolbox/COINtoolbox.github.io.svg)](http://dx.doi.org/10.5281/zenodo.16376)
-<img src="www/COIN.jpg", class="inline"/>
 
-## Methodology and software for cosmology
+<p><a href="http://dx.doi.org/10.5281/zenodo.16376"><img src="https://zenodo.org/badge/7175/COINtoolbox/COINtoolbox.github.io.svg" alt="DOI"></a>
+<img src="www/COIN.jpg", class="inline"/></p>
+
+<h2 id="toc_0">Methodology and software for cosmology</h2>
 
 <blockquote>
 The COsmostatistics INitiative ([COIN](https://asaip.psu.edu/organizations/iaa/iaa-working-group-of-cosmostatistics/)), a working group built within the International Astrostatistics Association
@@ -173,52 +322,61 @@ cosmologists, statisticians and machine learning experts can flourish. COIN is d
 promote the development of a new family of tools for data exploration in cosmology.
 </blockquote>
 
-## Generalized Linear Models in Astronomy
+<h2 id="toc_1">Generalized Linear Models in Astronomy</h2>
 
-> Statistical methods play a central role  to fully exploit astronomical catalogues and an  efficient  data analysis requires astronomers  to go beyond the traditional Gaussian-based models. This projects illustrates the power of generalized linear models (GLMs) for astronomical community,  from a Bayesian perspective.  Applications range from modelling star formation activity (logistic regression), globular cluster population (negative binomial regression), photometric redshifts (gamma regression), exoplanets multiplicity (Poisson regression), and so forth.
+<blockquote>
+<p>Statistical methods play a central role  to fully exploit astronomical catalogues and an  efficient  data analysis requires astronomers  to go beyond the traditional Gaussian-based models. This projects illustrates the power of generalized linear models (GLMs) for astronomical community,  from a Bayesian perspective.  Applications range from modelling star formation activity (logistic regression), globular cluster population (negative binomial regression), photometric redshifts (gamma regression), exoplanets multiplicity (Poisson regression), and so forth.</p>
+</blockquote>
 
-### Binomial Regression
->Suited to handle binary or proportional  data, also called absence and presence data. For example AGN activity, star-galaxy separation, fraction of bars in a galaxy, scape fraction, etc. 
+<h3 id="toc_2">Binomial Regression</h3>
 
- <a href="http://adsabs.harvard.edu/abs/2014arXiv1409.7696D" class="btn btn-primary">Link to ADS</a> 
-<a href="#" class="btn btn-primary">Tutorial</a>
+<blockquote>
+<p>Suited to handle binary or proportional  data, also called absence and presence data. For example AGN activity, star-galaxy separation, fraction of bars in a galaxy, scape fraction, etc. </p>
+</blockquote>
 
+<p><a href="http://adsabs.harvard.edu/abs/2014arXiv1409.7696D" class="btn btn-primary">Link to ADS</a> 
+<a href="#" class="btn btn-primary">Tutorial</a></p>
 
+<h3 id="toc_3">Gamma Regression</h3>
 
-### Gamma Regression
->Suited to handle non-negative continuous variables. Such as photometric redshifts, star formation rate, galaxy mass. The method naturally accounts for heteroskedasticity (non-constant variability). 
+<blockquote>
+<p>Suited to handle non-negative continuous variables. Such as photometric redshifts, star formation rate, galaxy mass. The method naturally accounts for heteroskedasticity (non-constant variability). </p>
+</blockquote>
 
- <a href="http://adsabs.harvard.edu/abs/2015A%26C....10...61E" class="btn btn-primary">Link to ADS</a> 
+<p><a href="http://adsabs.harvard.edu/abs/2015A%26C....10...61E" class="btn btn-primary">Link to ADS</a> 
  <a href="http://cosmophotoz.readthedocs.org/en/latest/" class="btn btn-primary">Tutorial</a> 
  <a href="http://ascl.net/1408.018" class="btn btn-primary">Package</a> 
- <a href="https://cosmostatisticsinitiative.shinyapps.io/CosmoPhotoz" class="btn btn-primary">Web App</a> 
- 
+ <a href="https://cosmostatisticsinitiative.shinyapps.io/CosmoPhotoz" class="btn btn-primary">Web App</a> </p>
 
-## Aproximate Bayesian Computation
+<h2 id="toc_4">Aproximate Bayesian Computation</h2>
 
->Approximate Bayesian Computation (ABC) enables the statistical analysis of
+<blockquote>
+<p>Approximate Bayesian Computation (ABC) enables the statistical analysis of
 stochastic models for complex physical systems in cases where the true
 likelihood function is unknown, unavailable, or computationally expensive.
 ABC relies on the forward simulation of mock data rather than the
 specification of a likelihood function.  The CosmoABC code was originally designed for cosmological parameter inference from galaxy clusters number counts based on Sunyaev-Zel’dovich measurements. 
-Nevertheless, the user can easily take advantage of the ABC sampler along with his/her own simulator, as well as test personalized prior distributions, summary statistics and distance functions.
+Nevertheless, the user can easily take advantage of the ABC sampler along with his/her own simulator, as well as test personalized prior distributions, summary statistics and distance functions.</p>
+</blockquote>
 
-<a href="http://cosmoabc.readthedocs.org/en/latest/" class="btn btn-primary">Tutorial</a> 
- <a href="https://pypi.python.org/pypi/CosmoABC" class="btn btn-primary">Package</a> 
+<p><a href="http://cosmoabc.readthedocs.org/en/latest/" class="btn btn-primary">Tutorial</a> 
+ <a href="https://pypi.python.org/pypi/CosmoABC" class="btn btn-primary">Package</a> </p>
 
-## Analysis of Muldimensional Astronomical DAtasets (AMADA)
+<h2 id="toc_5">Analysis of Muldimensional Astronomical DAtasets (AMADA)</h2>
 
->AMADA allows an iterative exploration and information retrieval of high-dimensional data sets. This is done by performing a hierarchical clustering analysis for different choices of correlation matrices and by doing a principal components analysis in the original data. Additionally, AMADA provides a set of modern visualization data-mining diagnostics. The user can switch between them using the different tabs.
+<blockquote>
+<p>AMADA allows an iterative exploration and information retrieval of high-dimensional data sets. This is done by performing a hierarchical clustering analysis for different choices of correlation matrices and by doing a principal components analysis in the original data. Additionally, AMADA provides a set of modern visualization data-mining diagnostics. The user can switch between them using the different tabs.</p>
+</blockquote>
 
- <a href="http://adsabs.harvard.edu/abs/2015arXiv150307736D" class="btn btn-primary">Link to ADS</a>
+<p><a href="http://adsabs.harvard.edu/abs/2015arXiv150307736D" class="btn btn-primary">Link to ADS</a>
  <a href="http://rafaelsdesouza.github.io/AMADA/" class="btn btn-primary">Package</a> 
- <a href="https://cosmostatisticsinitiative.shinyapps.io/AMADA/" class="btn btn-primary">Web App</a> 
- 
+ <a href="https://cosmostatisticsinitiative.shinyapps.io/AMADA/" class="btn btn-primary">Web App</a> </p>
 
+<hr>
 
----
-#### COIN Members on GitHub:
-<a href="https://github.com/algolkm" class="btn btn-default">Alberto Krone-Martins</a>
+<h4 id="toc_6">COIN Members on GitHub:</h4>
+
+<p><a href="https://github.com/algolkm" class="btn btn-default">Alberto Krone-Martins</a>
 <a href="https://github.com/bbuelens" class="btn btn-default">Bart Buelens</a>
 <a href="https://github.com/drArli" class="btn btn-default">Arlindo Trindade</a>
 <a href="https://github.com/efeigelson" class="btn btn-default">Eric Feigelson</a>
@@ -231,17 +389,16 @@ Nevertheless, the user can easily take advantage of the ABC sampler along with h
 <a href="https://github.com/migueldvb" class="btn btn-default">Miguel de Val-Borro</a>
 <a href="https://github.com/RafaelSdeSouza" class="btn btn-default">Rafael S. de Souza</a>
 <a href="https://github.com/rsmiljanic" class="btn btn-default">Rodolfo Smiljanic</a>
-<a href="https://github.com/vitenti" class="btn btn-default">Sandro Vitenti</a>
+<a href="https://github.com/vitenti" class="btn btn-default">Sandro Vitenti</a></p>
 
-#### Contact: <rafael.2706@gmail.com>
-</xmp>
+<h4 id="toc_7">Contact: <a href="mailto:rafael.2706@gmail.com">rafael.2706@gmail.com</a></h4>
 
-
-<p><a href="https://github.com/COINtoolbox/COINtoolbox.github.io"><img style="position: fixed; top: 0; right: 0; border: 0; width: 149px; height: 149px; z-index: 1000; margin: 0;" src="images/right-cerulean.png" alt="Fork me on GitHub"></a></p>
+<p></xmp>
+<a href="https://github.com/COINtoolbox/COINtoolbox.github.io"><img style="position: fixed; top: 0; right: 0; border: 0; width: 149px; height: 149px; z-index: 1000; margin: 0;" src="images/right-cerulean.png" alt="Fork me on GitHub"></a></p>
 
 <script src="http://strapdownjs.com/v/0.2/strapdown.js"></script>
 
 
-
 </body>
+
 </html>
