@@ -20,6 +20,9 @@ promote the development of a new family of tools for data exploration in cosmolo
 > Statistical methods play a central role  to fully exploit astronomical catalogues and an  efficient  data analysis requires astronomers  to go beyond the traditional Gaussian-based models. This projects illustrates the power of generalized linear models (GLMs) for astronomical community,  from a Bayesian perspective.  Applications range from modelling star formation activity (logistic regression), globular cluster population (negative binomial regression), photometric redshifts (gamma regression), exoplanets multiplicity (Poisson regression), and so forth.
 
 ### Binomial Regression
+[![arxiv](http://img.shields.io/badge/arXiv-1409.7696-brightgreen.svg?style=flat)](http://arxiv.org/abs/1409.7696)
+
+
 >Suited to handle binary or proportional  data, also called absence and presence data. For example AGN activity, star-galaxy separation, fraction of bars in a galaxy, scape fraction, etc. 
 
  <a href="http://adsabs.harvard.edu/abs/2014arXiv1409.7696D" class="btn btn-primary">Link to ADS</a> 
@@ -45,6 +48,7 @@ ABC relies on the forward simulation of mock data rather than the
 specification of a likelihood function.  The CosmoABC code was originally designed for cosmological parameter inference from galaxy clusters number counts based on Sunyaev-Zel’dovich measurements. 
 Nevertheless, the user can easily take advantage of the ABC sampler along with his/her own simulator, as well as test personalized prior distributions, summary statistics and distance functions.
 
+ <a href="http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1504.06129" class="btn btn-primary">Link to ADS</a>
 <a href="http://cosmoabc.readthedocs.org/en/latest/" class="btn btn-primary">Tutorial</a> 
  <a href="https://pypi.python.org/pypi/CosmoABC" class="btn btn-primary">Package</a> 
 
