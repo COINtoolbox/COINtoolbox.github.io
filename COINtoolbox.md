@@ -20,7 +20,7 @@ promote the development of a new family of tools for data exploration in cosmolo
 > Statistical methods play a central role  to fully exploit astronomical catalogues and an  efficient  data analysis requires astronomers  to go beyond the traditional Gaussian-based models. This projects illustrates the power of generalized linear models (GLMs) for astronomical community,  from a Bayesian perspective.  Applications range from modelling star formation activity (logistic regression), globular cluster population (negative binomial regression), photometric redshifts (gamma regression), exoplanets multiplicity (Poisson regression), and so forth.
 
 ### Binomial Regression
-[![arxiv](http://img.shields.io/badge/arXiv-1409.7696-red.svg?style=plastic)](http://arxiv.org/abs/1409.7696)
+[![arxiv](http://img.shields.io/badge/arXiv-1409.7696-lightgrey.svg?style=plastic)](http://arxiv.org/abs/1409.7696)
 
 
 >Suited to handle binary or proportional  data, also called absence and presence data. For example AGN activity, star-galaxy separation, fraction of bars in a galaxy, scape fraction, etc. 
@@ -31,7 +31,7 @@ promote the development of a new family of tools for data exploration in cosmolo
 
 
 ### Gamma Regression
-[![arxiv](http://img.shields.io/badge/arXiv-1409.7699-red.svg?style=plastic)](http://arxiv.org/abs/1409.7699)
+[![arxiv](http://img.shields.io/badge/arXiv-1409.7699-lightgrey.svg?style=plastic)](http://arxiv.org/abs/1409.7699)
 
 >Suited to handle non-negative continuous variables. Such as photometric redshifts, star formation rate, galaxy mass. The method naturally accounts for heteroskedasticity (non-constant variability). 
 
@@ -42,7 +42,7 @@ promote the development of a new family of tools for data exploration in cosmolo
  
 
 ## Aproximate Bayesian Computation
-[![arxiv](http://img.shields.io/badge/arXiv-1504.06129-red.svg?style=plastic)](http://arxiv.org/abs/1504.06129)
+[![arxiv](http://img.shields.io/badge/arXiv-1504.06129-lightgrey.svg?style=plastic)](http://arxiv.org/abs/1504.06129)
 
 >Approximate Bayesian Computation (ABC) enables the statistical analysis of
 stochastic models for complex physical systems in cases where the true
@@ -56,7 +56,7 @@ Nevertheless, the user can easily take advantage of the ABC sampler along with h
  <a href="https://pypi.python.org/pypi/CosmoABC" class="btn btn-primary">Package</a> 
 
 ## Analysis of Muldimensional Astronomical DAtasets (AMADA)
-[![arxiv](http://img.shields.io/badge/arXiv-1503.07736-red.svg?style=plastic)](http://arxiv.org/abs/1503.07736)
+[![arxiv](http://img.shields.io/badge/arXiv-1503.07736-lightgrey.svg?style=plastic)](http://arxiv.org/abs/1503.07736)
 
 >AMADA allows an iterative exploration and information retrieval of high-dimensional data sets. This is done by performing a hierarchical clustering analysis for different choices of correlation matrices and by doing a principal components analysis in the original data. Additionally, AMADA provides a set of modern visualization data-mining diagnostics. The user can switch between them using the different tabs.
 
