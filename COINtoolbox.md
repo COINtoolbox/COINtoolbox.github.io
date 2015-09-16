@@ -26,8 +26,6 @@ promote the development of a new family of tools for data exploration in cosmolo
 >Suited to handle binary or proportional  data, also called absence and presence data. For example AGN activity, star-galaxy separation, fraction of bars in a galaxy, scape fraction, etc. 
 
  <a href="http://adsabs.harvard.edu/abs/2014arXiv1409.7696D" class="btn btn-primary">Link to ADS</a> 
-<a href="#" class="btn btn-primary">Tutorial</a>
-
 
 
 ### Gamma Regression
@@ -39,9 +37,18 @@ promote the development of a new family of tools for data exploration in cosmolo
  <a href="http://cosmophotoz.readthedocs.org/en/latest/" class="btn btn-primary">Tutorial</a> 
  <a href="http://ascl.net/1408.018" class="btn btn-primary">Package</a> 
  <a href="https://cosmostatisticsinitiative.shinyapps.io/CosmoPhotoz" class="btn btn-primary">Web App</a> 
+### Negative Binomial  Regression
+[![arxiv](http://img.shields.io/badge/arXiv-1409.7699-lightgrey.svg?style=plastic)](http://arxiv.org/abs/1506.04792)
+
+>Suited to handle non-negative discrete variables. Such as number of exoplanets, globular cluster population, richness of galaxy clusters, etc.  
+
+ <a href="http://adsabs.harvard.edu/abs/2015MNRAS.453.1928D" class="btn btn-primary">Link to ADS</a> 
  
 
-## Aproximate Bayesian Computation
+
+ 
+
+## Approximate Bayesian Computation
 [![arxiv](http://img.shields.io/badge/arXiv-1504.06129-lightgrey.svg?style=plastic)](http://arxiv.org/abs/1504.06129)
 
 >Approximate Bayesian Computation (ABC) enables the statistical analysis of
