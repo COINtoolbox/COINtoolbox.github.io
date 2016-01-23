@@ -46,8 +46,6 @@ promote the development of a new family of tools for data exploration in cosmolo
  
 
 
- 
-
 ## Approximate Bayesian Computation
 [![arxiv](http://img.shields.io/badge/arXiv-1504.06129-lightgrey.svg?style=plastic)](http://arxiv.org/abs/1504.06129)
 
@@ -71,6 +69,12 @@ Nevertheless, the user can easily take advantage of the ABC sampler along with h
  <a href="http://rafaelsdesouza.github.io/AMADA/" class="btn btn-primary">Package</a> 
  <a href="https://cosmostatisticsinitiative.shinyapps.io/AMADA/" class="btn btn-primary">Web App</a> 
  
+## Dimensionality Reduction And Clustering for Unsupervised Learning in Astronomy (DRACULA)
+[![arxiv](http://img.shields.io/badge/arXiv-1512.06810-lightgrey.svg?style=plastic)](http://arxiv.org/abs/1512.06810)
+>DRACULA classifies objects using dimensionality reduction and clustering. The code has an easy interface and can be applied to separate several types of objects. It is based on tools developed in scikit-learn, with Deep Learning usage requiring also the H2O package.
+
+ <a href="http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1512.06810" class="btn btn-primary">Link to ADS</a> 
+ <a href="http://ascl.net/1512.009" class="btn btn-primary">Package</a> 
 
 
 ---
@@ -80,15 +84,20 @@ Nevertheless, the user can easily take advantage of the ABC sampler along with h
 <a href="https://github.com/drArli" class="btn btn-default">Arlindo Trindade</a>
 <a href="https://github.com/efeigelson" class="btn btn-default">Eric Feigelson</a>
 <a href="https://github.com/emilleishida" class="btn btn-default">Emille Ishida</a>
+<a href="https://github.com/hocamachoc" class="btn btn-default">Hugo Camacho</a>
 <a href="https://github.com/jonnybazookatone" class="btn btn-default">Jonny Elliott</a>
 <a href="https://github.com/JHilbe" class="btn btn-default">Joseph  Hilbe</a>
 <a href="https://github.com/DrMud" class="btn btn-default">Madhura Killedar</a>
 <a href="https://github.com/mdastro" class="btn btn-default">Maria Luiza Dantas</a>
 <a href="https://github.com/pennalima" class="btn btn-default">Mariana Penna-Lima</a>
+<a href="https://github.com/Naminoshi" class="btn btn-default">Michel Aguena</a>
+<a href="https://github.com/sasdelli" class="btn btn-default">Michele Sasdelli</a>
 <a href="https://github.com/migueldvb" class="btn btn-default">Miguel de Val-Borro</a>
 <a href="https://github.com/RafaelSdeSouza" class="btn btn-default">Rafael S. de Souza</a>
 <a href="https://github.com/rsmiljanic" class="btn btn-default">Rodolfo Smiljanic</a>
 <a href="https://github.com/vitenti" class="btn btn-default">Sandro Vitenti</a>
+<a href="https://github.com/vbusti" class="btn btn-default">Vinicius C. Busti</a>
+<a href="https://github.com/yabebalFantaye" class="btn btn-default">Yabebal Fantaye</a>
 
 #### Contact: <rafael.2706@gmail.com>
 </xmp>
