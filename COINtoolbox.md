@@ -15,7 +15,54 @@ cosmologists, statisticians and machine learning experts can flourish. COIN is d
 promote the development of a new family of tools for data exploration in cosmology.
 </blockquote>
 
-## Generalized Linear Models in Astronomy
+# *Teddy* and *Happy* photo-z catalogues <img  align="right" src="https://raw.githubusercontent.com/COINtoolbox/photoz_catalogues/master/images/coin.png" width="200"> 
+
+
+This repository contains the photometric redshift catalogues presented in [Beck et al, 2016]() - *On the realistic validation of photometric redshifts, or why
+Teddy will never be Happy*.
+
+This is one of the products of the third edition of the [COIN Residence Program](http://iaacoin.wix.com/crp2016), which took place in August/2016 in Budapest (Hungary). 
+
+Any questions/suggestions should be sent to iaa.coin@gmail.com .
+
+
+A general overview of both catalogues is given bellow. Check the individual folders for detailed information on the files presented here. 
+
+## *Teddy* 
+
+
+This catalogue was designed to isolate the effect of limited spectroscopic sample coverage in colour/magnitude space.
+
+It is constructed from the [SDSS DR12](http://www.sdss.org/dr12/) spectroscopic sample and is maintained by [Chieh-An Lin](http://linc.tw/) (CEA, France) 
+
+## *Happy*
+
+
+This catalogue was designed to reproduce the effect of distinct photometric error distributions and their convolution with colour/magnitude space coverage between the spectroscopic and photometric samples. 
+
+All photometry was taken from [SDSS DR12](http://www.sdss.org/dr12/), and spectroscopy was gathered from a set of different sources (see  [Beck et al, 2016]() for further details). 
+
+*Happy* is maintained by [Robert Beck](https://github.com/beckrob) (ELTE, Hungary).
+
+
+ 
+
+
+## Approximate Bayesian Computation
+[![arxiv](http://img.shields.io/badge/arXiv-1504.06129-lightgrey.svg?style=plastic)](http://arxiv.org/abs/1504.06129)
+
+>Approximate Bayesian Computation (ABC) enables the statistical analysis of
+stochastic models for complex physical systems in cases where the true
+likelihood function is unknown, unavailable, or computationally expensive.
+ABC relies on the forward simulation of mock data rather than the
+specification of a likelihood function.  The CosmoABC code was originally designed for cosmological parameter inference from galaxy clusters number counts based on Sunyaev-Zel’dovich measurements. 
+Nevertheless, the user can easily take advantage of the ABC sampler along with his/her own simulator, as well as test personalized prior distributions, summary statistics and distance functions.
+
+ <a href="http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1504.06129" class="btn btn-primary">Link to ADS</a>
+<a href="http://cosmoabc.readthedocs.org/en/latest/" class="btn btn-primary">Tutorial</a> 
+ <a href="https://pypi.python.org/pypi/CosmoABC" class="btn btn-primary">Package</a> 
+ 
+ ## Generalized Linear Models in Astronomy
 
 > Statistical methods play a central role  to fully exploit astronomical catalogues and an  efficient  data analysis requires astronomers  to go beyond the traditional Gaussian-based models. This projects illustrates the power of generalized linear models (GLMs) for astronomical community,  from a Bayesian perspective.  Applications range from modelling star formation activity (logistic regression), globular cluster population (negative binomial regression), photometric redshifts (gamma regression), exoplanets multiplicity (Poisson regression), and so forth.
 
@@ -43,22 +90,14 @@ promote the development of a new family of tools for data exploration in cosmolo
 >Suited to handle non-negative discrete variables. Such as number of exoplanets, globular cluster population, richness of galaxy clusters, etc.  
 
  <a href="http://adsabs.harvard.edu/abs/2015MNRAS.453.1928D" class="btn btn-primary">Link to ADS</a> 
- 
 
+## Dimensionality Reduction And Clustering for Unsupervised Learning in Astronomy (DRACULA)
+[![arxiv](http://img.shields.io/badge/arXiv-1512.06810-lightgrey.svg?style=plastic)](http://arxiv.org/abs/1512.06810)
+>DRACULA classifies objects using dimensionality reduction and clustering. The code has an easy interface and can be applied to separate several types of objects. It is based on tools developed in scikit-learn, with Deep Learning usage requiring also the H2O package.
 
-## Approximate Bayesian Computation
-[![arxiv](http://img.shields.io/badge/arXiv-1504.06129-lightgrey.svg?style=plastic)](http://arxiv.org/abs/1504.06129)
+ <a href="http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1512.06810" class="btn btn-primary">Link to ADS</a> 
+ <a href="http://ascl.net/1512.009" class="btn btn-primary">Package</a> 
 
->Approximate Bayesian Computation (ABC) enables the statistical analysis of
-stochastic models for complex physical systems in cases where the true
-likelihood function is unknown, unavailable, or computationally expensive.
-ABC relies on the forward simulation of mock data rather than the
-specification of a likelihood function.  The CosmoABC code was originally designed for cosmological parameter inference from galaxy clusters number counts based on Sunyaev-Zel’dovich measurements. 
-Nevertheless, the user can easily take advantage of the ABC sampler along with his/her own simulator, as well as test personalized prior distributions, summary statistics and distance functions.
-
- <a href="http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1504.06129" class="btn btn-primary">Link to ADS</a>
-<a href="http://cosmoabc.readthedocs.org/en/latest/" class="btn btn-primary">Tutorial</a> 
- <a href="https://pypi.python.org/pypi/CosmoABC" class="btn btn-primary">Package</a> 
 
 ## Analysis of Muldimensional Astronomical DAtasets (AMADA)
 [![arxiv](http://img.shields.io/badge/arXiv-1503.07736-lightgrey.svg?style=plastic)](http://arxiv.org/abs/1503.07736)
@@ -69,13 +108,6 @@ Nevertheless, the user can easily take advantage of the ABC sampler along with h
  <a href="http://rafaelsdesouza.github.io/AMADA/" class="btn btn-primary">Package</a> 
  <a href="https://cosmostatisticsinitiative.shinyapps.io/AMADA/" class="btn btn-primary">Web App</a> 
  
-## Dimensionality Reduction And Clustering for Unsupervised Learning in Astronomy (DRACULA)
-[![arxiv](http://img.shields.io/badge/arXiv-1512.06810-lightgrey.svg?style=plastic)](http://arxiv.org/abs/1512.06810)
->DRACULA classifies objects using dimensionality reduction and clustering. The code has an easy interface and can be applied to separate several types of objects. It is based on tools developed in scikit-learn, with Deep Learning usage requiring also the H2O package.
-
- <a href="http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1512.06810" class="btn btn-primary">Link to ADS</a> 
- <a href="http://ascl.net/1512.009" class="btn btn-primary">Package</a> 
-
 
 ---
 #### COIN Members on GitHub:
