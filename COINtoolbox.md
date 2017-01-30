@@ -108,6 +108,21 @@ Nevertheless, the user can easily take advantage of the ABC sampler along with h
  <a href="http://rafaelsdesouza.github.io/AMADA/" class="btn btn-primary">Package</a> 
  <a href="https://cosmostatisticsinitiative.shinyapps.io/AMADA/" class="btn btn-primary">Web App</a> 
  
+<<<<<<< HEAD
+=======
+## Dimensionality Reduction And Clustering for Unsupervised Learning in Astronomy (DRACULA)
+[![arxiv](http://img.shields.io/badge/arXiv-1512.06810-lightgrey.svg?style=plastic)](http://arxiv.org/abs/1512.06810)
+>DRACULA classifies objects using dimensionality reduction and clustering. The code has an easy interface and can be applied to separate several types of objects. It is based on tools developed in scikit-learn, with Deep Learning usage requiring also the H2O package.
+
+ <a href="http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1512.06810" class="btn btn-primary">Link to ADS</a> 
+ <a href="http://ascl.net/1512.009" class="btn btn-primary">Package</a> 
+
+## Is the cluster environment quenching the Seyfert activity in elliptical and spiral galaxies?
+[![arxiv](http://img.shields.io/badge/arXiv-1512.06810-lightgrey.svg?style=plastic)](http://arxiv.org/abs/1603.06256)
+>We developed a hierarchical Bayesian model (HBM) to investigate how the presence of Seyfert activity relates to their environment, herein represented by the galaxy cluster mass, M200, and the normalized cluster centric distance, r/r200. A propensity score matching approach is introduced to control for the effects of confounding variables.  The connection between Seyfert-activity and environmental properties in the de-biased sample is modelled within a Hierarchical Bayesian Model framework using the logistic regression technique.
+
+<a href="http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1603.06256">Link to ADS</a>
+>>>>>>> origin/master
 
 ---
 #### COIN Members on GitHub:
