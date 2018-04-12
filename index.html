@@ -330,18 +330,81 @@ cosmologists, statisticians and machine learning experts can flourish. COIN is d
 promote the development of a new family of tools for data exploration in cosmology.
 </blockquote>
 
-<h2 id="toc_9">Analysis of Muldimensional Astronomical DAtasets (AMADA)</h2>
 
-<p><a href="http://arxiv.org/abs/1503.07736"><img src="http://img.shields.io/badge/arXiv-1503.07736-lightgrey.svg?style=plastic" alt="arxiv"></a></p>
+<h2 id="toc_10">Active Learning for Supernova Photometric Classification</h2>
+
+<p><a href="https://arxiv.org/abs/1804.03765"><img src="http://img.shields.io/badge/arXiv-1804.03765-lightgrey.svg?style=plastic" alt="arxiv"></a></p>
 
 <blockquote>
-<p>AMADA allows an iterative exploration and information retrieval of high-dimensional data sets. This is done by performing a hierarchical clustering analysis for different choices of correlation matrices and by doing a principal components analysis in the original data. Additionally, AMADA provides a set of modern visualization data-mining diagnostics. The user can switch between them using the different tabs.</p>
+<p>We report a framework for spectroscopic follow-up design for optimizing supernova photometric classification. The strategy accounts for the unavoidable mismatch between spectroscopic and photometric samples, and can be used even in the beginning of a new survey - without any initial training set. The framework falls under the umbrella of active learning (AL), a class of algorithms that aims to minimize labelling costs by identifying a few, carefully chosen, objects which have high potential in improving the classifier predictions. As a proof of concept, we use the simulated data released after the Supernova Photometric Classification Challenge (SNPCC) and a random forest classifier. Our results show that, using only 12% the number of training objects in the SNPCC spectroscopic sample, this approach is able to double purity results. Moreover, in order to take into account multiple spectroscopic observations in the same night, we propose a semi-supervised batch-mode AL algorithm which selects a set of N=5 most informative objects at each night. In comparison with the initial state using the traditional approach, our method achieves 2.3 times higher purity and comparable figure of merit results after only 180 days of observation, or 800 queries (73% of the SNPCC spectroscopic sample size). Such results were obtained using the same amount of spectroscopic time necessary to observe the original SNPCC spectroscopic sample, showing that this type of strategy is feasible with current available spectroscopic resources. </p>
 </blockquote>
 
-<p><a href="http://adsabs.harvard.edu/abs/2015arXiv150307736D" class="btn btn-primary">Link to ADS</a>
- <a href="http://rafaelsdesouza.github.io/AMADA/" class="btn btn-primary">Package</a> 
- <a href="https://cosmostatisticsinitiative.shinyapps.io/AMADA/" class="btn btn-primary">Web App</a> </p>
+<p><a href="http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1804.03765" class="btn btn-primary">Link to ADS</a>
+   <a href="https://github.com/COINtoolbox/ActSNClass" class="btn btn-primary">Catalogues</a>
 
+
+
+
+<h2 id="toc_10">Spatial modelling for IFU data with INLA</h2>
+
+<p><a href="https://arxiv.org/abs/1802.06280"><img src="http://img.shields.io/badge/arXiv-1802.06280-lightgrey.svg?style=plastic" alt="arxiv"></a></p>
+
+<blockquote>
+<p>Astronomical observations of extended sources, such as cubes of integral field spectroscopy (IFS), encode auto-correlated spatial structures that cannot be optimally exploited by generic methods that fall short to account for topological information.  Here we introduce a novel technique to model IFS datasets, which treats the observed galaxy properties as manifestations of an unobserved Gaussian Markov random field. The method is computationally efficient, resilient to the presence of low-signal-to-noise regions, and uses an alternative to Markov Chain Monte Carlo for fast Bayesian inference - the Integrated Nested Laplace Approximation. As a case study, we analyse 721 IFS data cubes of nearby galaxies from the CALIFA and PISCO surveys, for which we retrieved the following physical properties:  age, metallicity, mass, and extinction. The proposed Bayesian approach, built on a generative representation of the galaxy properties, enables the creation of synthetic images, recovery of areas with bad pixels, and an increased power to detect structures in datasets subject to substantial noise and/or sparsity of sampling.</p>
+</blockquote>
+
+<p><a href="http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1802.06280" class="btn btn-primary">Link to ADS</a>
+   <a href="https://github.com/COINtoolbox/Galaxies_INLA" class="btn btn-primary">Catalogues</a>
+
+
+<h2 id="toc_10">Gaussian Mixture Models and galaxy classification</h2>
+
+<p><a href="https://arxiv.org/abs/1703.07607"><img src="http://img.shields.io/badge/arXiv-1703.07607-lightgrey.svg?style=plastic" alt="arxiv"></a></p>
+
+<blockquote>
+<p>This work employs a Gaussian mixture model (GMM) to jointly analyse two traditional emission-line classification schemes of galaxy ionization sources: the Baldwin-Phillips-Terlevich (BPT) and W_H-alpha vs. [NII]_H-alpha (WHAN) diagrams, using spectroscopic data from the Sloan Digital Sky Survey Data Release 7 and SEAGal/STARLIGHT datasets. We apply a GMM to empirically define classes of galaxies in a three-dimensional space spanned by the log [OIII]/H-beta, log [NII]/H-alpha, and log EW(H-alpha) optical parameters. The best-fit GMM based on several statistical criteria consists of four Gaussian components (GCs), which are capable to explain up to 97 per cent of the data variance. Using elements of information theory, we compare each GC to their respective astronomical counterpart. GC1 and GC4 are associated with star-forming galaxies, suggesting the need to define a new starburst subgroup. GC2 is associated with BPT's Active Galaxy Nuclei (AGN) class and WHAN's weak AGN class. GC3 is associated with BPT's composite class and WHAN's strong AGN class. Conversely, there is no statistical evidence -- based on GMMs -- for the existence of a Seyfert/LINER dichotomy in our sample. We demonstrate the potential of our methodology to recover/unravel different objects inside the wilderness of astronomical datasets, without lacking the ability to convey physically interpretable results; hence being a precious tool for maximum exploitation of the ever-increasing astronomical surveys.</p>
+</blockquote>
+
+<p><a href="http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1703.07607" class="btn btn-primary">Link to ADS</a>
+   <a href="https://cointoolbox.github.io/GMM_Catalogue/" class="btn btn-primary">Catalogue</a>
+   <a href="https://github.com/COINtoolbox/GMM_Catalogue/blob/master/Tutorial/GMM_Python.ipynb" class="btn btn-primary">Tutorial</a>
+
+
+<h2 id="toc_10">Representativeness in photometric redshift estimation</h2>
+
+<p><a href="https://arxiv.org/abs/1701.08748"><img src="http://img.shields.io/badge/arXiv-1701.08748-lightgrey.svg?style=plastic" alt="arxiv"></a></p>
+
+<blockquote>
+<p>We present two galaxy catalogues built to enable a more demanding and realistic test of photo-z methods. Using photometry from the Sloan Digital Sky Survey and spectroscopy from a collection of sources, we constructed datasets which mimic the biases between the underlying probability distribution of the real spectroscopic and photometric sample while also possessing spectroscopic measurements. We demonstrate the potential of these catalogues by submitting them to the scrutiny of different photo-z methods, including machine learning (ML) and template fitting approaches. We were able to recognize the superiority of global models in cases with incomplete coverage in feature space and the general failure across all types of methods when incomplete coverage is convoluted with the presence of photometric errors - a data situation which photo-z methods were not trained to deal with up to now and which must be addressed by future large scale surveys. Our catalogues represent the first controlled environment allowing a straightforward implementation of such tests.</p>
+</blockquote>
+
+<p><a href="http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1701.08748" class="btn btn-primary">Link to ADS</a>
+   <a href="https://github.com/COINtoolbox/photoz_catalogues" class="btn btn-primary">Catalogues</a>
+
+
+
+<h2 id="toc_10">Hierarchical Bayesian Models: logistic regression and AGN activity</h2>
+
+<p><a href="https://arxiv.org/abs/1603.0625"><img src="http://img.shields.io/badge/arXiv-1503.07736-lightgrey.svg?style=plastic" alt="arxiv"></a></p>
+
+<blockquote>
+<p>We developed a hierarchical Bayesian model (HBM) to investigate how the presence of Seyfert activity relates to their environment, herein represented by the galaxy cluster mass, M200, and the normalized cluster-centric distance, r/r200. We achieved this by constructing an unbiased sample of galaxies from the Sloan Digital Sky Survey, with morphological classifications provided by the Galaxy Zoo Project. A propensity score matching approach is introduced to control for the effects of confounding variables: stellar mass, galaxy colour, and star formation rate. The connection between Seyfert-activity and environmental properties in the de-biased sample is modelled within an HBM framework using the so-called logistic regression technique, suitable for the analysis of binary data (e.g., whether or not a galaxy hosts an AGN). Unlike standard ordinary least square fitting methods, our methodology naturally allows modelling the probability of Seyfert-AGN activity in galaxies on their natural scale, i.e. as a binary variable. Furthermore, we demonstrate how an HBM can incorporate information of each particular galaxy morphological type in a unified framework. In elliptical galaxies, our analysis indicates a strong correlation of Seyfert-AGN activity with r/r200, and a weaker correlation with the mass of the host. In spiral galaxies these trends do not appear, suggesting that the link between Seyfert activity and the properties of spiral galaxies are independent of the environment.</p>
+</blockquote>
+
+<p><a href="http://adsabs.harvard.edu/abs/2016MNRAS.461.2115D" class="btn btn-primary">Link to ADS</a>
+
+
+<h2 id="toc_8">Dimensionality Reduction And Clustering for Unsupervised Learning in Astronomy (DRACULA)</h2>
+
+<p><a href="http://arxiv.org/abs/1512.06810"><img src="http://img.shields.io/badge/arXiv-1512.06810-lightgrey.svg?style=plastic" alt="arxiv"></a></p>
+
+
+<blockquote>
+<p>DRACULA classifies objects using dimensionality reduction and clustering. The code has an easy interface and can be applied to separate several types of objects. It is based on tools developed in scikit-learn, with Deep Learning usage requiring also the H2O package.</p>
+</blockquote>
+
+<p><a href="http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1512.06810" class="btn btn-primary">Link to ADS</a> 
+ <a href="http://ascl.net/1512.009" class="btn btn-primary">Package</a> </p>
 
 
 <h2 id="toc_4">Approximate Bayesian Computation</h2>
@@ -361,17 +424,21 @@ Nevertheless, the user can easily take advantage of the ABC sampler along with h
 <a href="http://cosmoabc.readthedocs.org/en/latest/" class="btn btn-primary">Tutorial</a> 
  <a href="https://pypi.python.org/pypi/CosmoABC" class="btn btn-primary">Package</a> </p>
 
-<h2 id="toc_8">Dimensionality Reduction And Clustering for Unsupervised Learning in Astronomy (DRACULA)</h2>
 
-<p><a href="http://arxiv.org/abs/1512.06810"><img src="http://img.shields.io/badge/arXiv-1512.06810-lightgrey.svg?style=plastic" alt="arxiv"></a></p>
 
+<h2 id="toc_9">Analysis of Muldimensional Astronomical DAtasets (AMADA)</h2>
+
+<p><a href="http://arxiv.org/abs/1503.07736"><img src="http://img.shields.io/badge/arXiv-1503.07736-lightgrey.svg?style=plastic" alt="arxiv"></a></p>
 
 <blockquote>
-<p>DRACULA classifies objects using dimensionality reduction and clustering. The code has an easy interface and can be applied to separate several types of objects. It is based on tools developed in scikit-learn, with Deep Learning usage requiring also the H2O package.</p>
+<p>AMADA allows an iterative exploration and information retrieval of high-dimensional data sets. This is done by performing a hierarchical clustering analysis for different choices of correlation matrices and by doing a principal components analysis in the original data. Additionally, AMADA provides a set of modern visualization data-mining diagnostics. The user can switch between them using the different tabs.</p>
 </blockquote>
 
-<p><a href="http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1512.06810" class="btn btn-primary">Link to ADS</a> 
- <a href="http://ascl.net/1512.009" class="btn btn-primary">Package</a> </p>
+<p><a href="http://adsabs.harvard.edu/abs/2015arXiv150307736D" class="btn btn-primary">Link to ADS</a>
+ <a href="http://rafaelsdesouza.github.io/AMADA/" class="btn btn-primary">Package</a> 
+ <a href="https://cosmostatisticsinitiative.shinyapps.io/AMADA/" class="btn btn-primary">Web App</a> </p>
+
+
 
 
 <h2 id="toc_4">Generalized Linear Models in Astronomy</h2>
@@ -380,15 +447,15 @@ Nevertheless, the user can easily take advantage of the ABC sampler along with h
 <p>Statistical methods play a central role  to fully exploit astronomical catalogues and an  efficient  data analysis requires astronomers  to go beyond the traditional Gaussian-based models. This projects illustrates the power of generalized linear models (GLMs) for astronomical community,  from a Bayesian perspective.  Applications range from modelling star formation activity (logistic regression), globular cluster population (negative binomial regression), photometric redshifts (gamma regression), exoplanets multiplicity (Poisson regression), and so forth.</p>
 </blockquote>
 
-<h3 id="toc_5">Binomial Regression</h3>
+<h3 id="toc_7">Negative Binomial  Regression</h3>
 
-<p><a href="http://arxiv.org/abs/1409.7696"><img src="http://img.shields.io/badge/arXiv-1409.7696-lightgrey.svg?style=plastic" alt="arxiv"></a></p>
+<p><a href="http://arxiv.org/abs/1506.04792"><img src="http://img.shields.io/badge/arXiv-1409.7699-lightgrey.svg?style=plastic" alt="arxiv"></a></p>
 
 <blockquote>
-<p>Suited to handle binary or proportional  data, also called absence and presence data. For example AGN activity, star-galaxy separation, fraction of bars in a galaxy, scape fraction, etc. </p>
+<p>Suited to handle non-negative discrete variables. Such as number of exoplanets, globular cluster population, richness of galaxy clusters, etc.  </p>
 </blockquote>
 
-<p><a href="http://adsabs.harvard.edu/abs/2014arXiv1409.7696D" class="btn btn-primary">Link to ADS</a> </p>
+<p><a href="http://adsabs.harvard.edu/abs/2015MNRAS.453.1928D" class="btn btn-primary">Link to ADS</a> </p>
 
 <h3 id="toc_6">Gamma Regression</h3>
 
@@ -403,61 +470,17 @@ Nevertheless, the user can easily take advantage of the ABC sampler along with h
  <a href="http://ascl.net/1408.018" class="btn btn-primary">Package</a> 
  <a href="https://cosmostatisticsinitiative.shinyapps.io/CosmoPhotoz" class="btn btn-primary">Web App</a> </p>
 
-<h3 id="toc_7">Negative Binomial  Regression</h3>
 
-<p><a href="http://arxiv.org/abs/1506.04792"><img src="http://img.shields.io/badge/arXiv-1409.7699-lightgrey.svg?style=plastic" alt="arxiv"></a></p>
+<h3 id="toc_5">Binomial Regression</h3>
 
-<blockquote>
-<p>Suited to handle non-negative discrete variables. Such as number of exoplanets, globular cluster population, richness of galaxy clusters, etc.  </p>
-</blockquote>
-
-<p><a href="http://adsabs.harvard.edu/abs/2015MNRAS.453.1928D" class="btn btn-primary">Link to ADS</a> </p>
-
-<h2 id="toc_10">Gaussian Mixture Models and galaxy classification</h2>
-
-<p><a href="https://arxiv.org/abs/1703.07607"><img src="http://img.shields.io/badge/arXiv-1703.07607-lightgrey.svg?style=plastic" alt="arxiv"></a></p>
+<p><a href="http://arxiv.org/abs/1409.7696"><img src="http://img.shields.io/badge/arXiv-1409.7696-lightgrey.svg?style=plastic" alt="arxiv"></a></p>
 
 <blockquote>
-<p>This work employs a Gaussian mixture model (GMM) to jointly analyse two traditional emission-line classification schemes of galaxy ionization sources: the Baldwin-Phillips-Terlevich (BPT) and W_H-alpha vs. [NII]_H-alpha (WHAN) diagrams, using spectroscopic data from the Sloan Digital Sky Survey Data Release 7 and SEAGal/STARLIGHT datasets. We apply a GMM to empirically define classes of galaxies in a three-dimensional space spanned by the log [OIII]/H-beta, log [NII]/H-alpha, and log EW(H-alpha) optical parameters. The best-fit GMM based on several statistical criteria consists of four Gaussian components (GCs), which are capable to explain up to 97 per cent of the data variance. Using elements of information theory, we compare each GC to their respective astronomical counterpart. GC1 and GC4 are associated with star-forming galaxies, suggesting the need to define a new starburst subgroup. GC2 is associated with BPT's Active Galaxy Nuclei (AGN) class and WHAN's weak AGN class. GC3 is associated with BPT's composite class and WHAN's strong AGN class. Conversely, there is no statistical evidence -- based on GMMs -- for the existence of a Seyfert/LINER dichotomy in our sample. We demonstrate the potential of our methodology to recover/unravel different objects inside the wilderness of astronomical datasets, without lacking the ability to convey physically interpretable results; hence being a precious tool for maximum exploitation of the ever-increasing astronomical surveys.</p>
+<p>Suited to handle binary or proportional  data, also called absence and presence data. For example AGN activity, star-galaxy separation, fraction of bars in a galaxy, scape fraction, etc. </p>
 </blockquote>
 
-<p><a href="http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1703.07607" class="btn btn-primary">Link to ADS</a>
-   <a href="https://cointoolbox.github.io/GMM_Catalogue/" class="btn btn-primary">Catalogue</a>
-   <a href="https://github.com/COINtoolbox/GMM_Catalogue/blob/master/Tutorial/GMM_Python.ipynb" class="btn btn-primary">Tutorial</a>
+<p><a href="http://adsabs.harvard.edu/abs/2014arXiv1409.7696D" class="btn btn-primary">Link to ADS</a> </p>
 
-
-<h2 id="toc_10">Hierarchical Bayesian Models: logistic regression and AGN activity</h2>
-
-<p><a href="https://arxiv.org/abs/1603.0625"><img src="http://img.shields.io/badge/arXiv-1503.07736-lightgrey.svg?style=plastic" alt="arxiv"></a></p>
-
-<blockquote>
-<p>We developed a hierarchical Bayesian model (HBM) to investigate how the presence of Seyfert activity relates to their environment, herein represented by the galaxy cluster mass, M200, and the normalized cluster-centric distance, r/r200. We achieved this by constructing an unbiased sample of galaxies from the Sloan Digital Sky Survey, with morphological classifications provided by the Galaxy Zoo Project. A propensity score matching approach is introduced to control for the effects of confounding variables: stellar mass, galaxy colour, and star formation rate. The connection between Seyfert-activity and environmental properties in the de-biased sample is modelled within an HBM framework using the so-called logistic regression technique, suitable for the analysis of binary data (e.g., whether or not a galaxy hosts an AGN). Unlike standard ordinary least square fitting methods, our methodology naturally allows modelling the probability of Seyfert-AGN activity in galaxies on their natural scale, i.e. as a binary variable. Furthermore, we demonstrate how an HBM can incorporate information of each particular galaxy morphological type in a unified framework. In elliptical galaxies, our analysis indicates a strong correlation of Seyfert-AGN activity with r/r200, and a weaker correlation with the mass of the host. In spiral galaxies these trends do not appear, suggesting that the link between Seyfert activity and the properties of spiral galaxies are independent of the environment.</p>
-</blockquote>
-
-<p><a href="http://adsabs.harvard.edu/abs/2016MNRAS.461.2115D" class="btn btn-primary">Link to ADS</a>
-
-<h2 id="toc_10">Representativeness in photometric redshift estimation</h2>
-
-<p><a href="https://arxiv.org/abs/1701.08748"><img src="http://img.shields.io/badge/arXiv-1701.08748-lightgrey.svg?style=plastic" alt="arxiv"></a></p>
-
-<blockquote>
-<p>We present two galaxy catalogues built to enable a more demanding and realistic test of photo-z methods. Using photometry from the Sloan Digital Sky Survey and spectroscopy from a collection of sources, we constructed datasets which mimic the biases between the underlying probability distribution of the real spectroscopic and photometric sample while also possessing spectroscopic measurements. We demonstrate the potential of these catalogues by submitting them to the scrutiny of different photo-z methods, including machine learning (ML) and template fitting approaches. We were able to recognize the superiority of global models in cases with incomplete coverage in feature space and the general failure across all types of methods when incomplete coverage is convoluted with the presence of photometric errors - a data situation which photo-z methods were not trained to deal with up to now and which must be addressed by future large scale surveys. Our catalogues represent the first controlled environment allowing a straightforward implementation of such tests.</p>
-</blockquote>
-
-<p><a href="http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1701.08748" class="btn btn-primary">Link to ADS</a>
-   <a href="https://github.com/COINtoolbox/photoz_catalogues" class="btn btn-primary">Catalogues</a>
-
-
-<h2 id="toc_10">Spatial modelling for IFU data with INLA</h2>
-
-<p><a href="https://arxiv.org/abs/1802.06280"><img src="http://img.shields.io/badge/arXiv-1802.06280-lightgrey.svg?style=plastic" alt="arxiv"></a></p>
-
-<blockquote>
-<p>Astronomical observations of extended sources, such as cubes of integral field spectroscopy (IFS), encode auto-correlated spatial structures that cannot be optimally exploited by generic methods that fall short to account for topological information.  Here we introduce a novel technique to model IFS datasets, which treats the observed galaxy properties as manifestations of an unobserved Gaussian Markov random field. The method is computationally efficient, resilient to the presence of low-signal-to-noise regions, and uses an alternative to Markov Chain Monte Carlo for fast Bayesian inference - the Integrated Nested Laplace Approximation. As a case study, we analyse 721 IFS data cubes of nearby galaxies from the CALIFA and PISCO surveys, for which we retrieved the following physical properties:  age, metallicity, mass, and extinction. The proposed Bayesian approach, built on a generative representation of the galaxy properties, enables the creation of synthetic images, recovery of areas with bad pixels, and an increased power to detect structures in datasets subject to substantial noise and/or sparsity of sampling.</p>
-</blockquote>
-
-<p><a href="http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1802.06280" class="btn btn-primary">Link to ADS</a>
-   <a href="https://github.com/COINtoolbox/Galaxies_INLA" class="btn btn-primary">Catalogues</a>
 
 
 <hr>
